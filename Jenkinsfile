@@ -12,7 +12,7 @@ pipeline {
           openshift.withCluster(){
             openshift.withProject(){
               echo 'running build'
-              sh 'build.sh'
+              sh './build.sh'
             }
           }
         }
@@ -24,7 +24,7 @@ pipeline {
           openshift.withCluster(){
             openshift.withProject(){
               echo 'testing...'
-              sh 'test.sh'
+              sh './test.sh'
             }
           }
         }
