@@ -10,7 +10,7 @@ func main() {
     os.Exit(0)
   }
 
-  fmt.Println("hello error")
+  fmt.Println("hello old error")
   os.Exit(1)
 
 }
