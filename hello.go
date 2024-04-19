@@ -6,7 +6,7 @@ import "os"
 func main() {
 
   if len(os.Args) == 1 {
-    fmt.Println("hello world")
+    fmt.Println("hello old world")
     os.Exit(0)
   }
 
