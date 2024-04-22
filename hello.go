@@ -7,6 +7,7 @@ func main() {
 
   if len(os.Args) == 1 {
     fmt.Println("hello old world")
+    fmt.Println("more test")
     os.Exit(0)
   }
 
